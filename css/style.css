@@ -1,0 +1,32 @@
+header {
+  background-color: black;
+}
+
+body {
+  font-size: 20px;
+}
+
+body div {
+  font-size: 10px;
+}
+
+body h1 {
+  font-size: 50px;
+  color: green;
+}
+
+.block {
+  background-color: black;
+}
+
+.block__item {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.block__title {
+  color: red;
+}

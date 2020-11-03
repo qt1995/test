@@ -1,0 +1,28 @@
+$s: 40px;
+$v: 50px;
+@import "_header";
+
+body {
+	font-size: 20px;
+	div {
+		font-size: 10px;
+	}
+	h1 {
+		font-size: $v;
+		color: green;
+	}
+}
+.block {
+	background-color: black;
+	&__item {
+		color: blue;
+	}
+
+	&__title {
+		color: red;
+	}
+}
+
+.red {
+	color: red;
+}
